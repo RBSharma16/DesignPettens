@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L0G30eHCkfekeOq3o94syV4sW0PfQAiWxPvg19ZNbQgEJBQzzTkPd8hYBg2rjaVGBlIsbIuWdRuNCce4hd1+eA==",
+  "dgSpecHash": "oy50MP7zf2pfPJ8PoFuchUt4Jv8l1oUprgWV1ps/ENbynqFVzN/thNudgJXt7adCsdBfR5yqsIE8QGz0UzkBqw==",
   "success": true,
-  "projectFilePath": "D:\\DotNet\\DesignPattens\\DesignPattens\\DesignPattens.csproj",
+  "projectFilePath": "D:\\DotNet\\Edurekha\\DesignPettens\\DesignPattens\\DesignPattens.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

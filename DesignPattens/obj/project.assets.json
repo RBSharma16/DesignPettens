@@ -9756,11 +9756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNet\\DesignPattens\\DesignPattens\\DesignPattens.csproj",
+      "projectUniqueName": "D:\\DotNet\\Edurekha\\DesignPettens\\DesignPattens\\DesignPattens.csproj",
       "projectName": "DesignPattens",
-      "projectPath": "D:\\DotNet\\DesignPattens\\DesignPattens\\DesignPattens.csproj",
+      "projectPath": "D:\\DotNet\\Edurekha\\DesignPettens\\DesignPattens\\DesignPattens.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNet\\DesignPattens\\DesignPattens\\obj\\",
+      "outputPath": "D:\\DotNet\\Edurekha\\DesignPettens\\DesignPattens\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
