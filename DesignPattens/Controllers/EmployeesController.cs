@@ -24,10 +24,14 @@ namespace DesignPattens.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
         {
-          if (_context.Employees == null)
-          {
-              return NotFound();
-          }
+            if (_context.Employees == null)
+            {
+                return NotFound();
+            }
+            if (_context.Employees.FirstOrDefault().EmailId == "")
+            {
+                return BadRequest();
+            }
             return await _context.Employees.ToListAsync();
         }
 
@@ -35,10 +39,10 @@ namespace DesignPattens.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Employee>> GetEmployee(int id)
         {
-          if (_context.Employees == null)
-          {
-              return NotFound();
-          }
+            if (_context.Employees == null)
+            {
+                return NotFound();
+            }
             var employee = await _context.Employees.FindAsync(id);
 
             if (employee == null)
@@ -85,10 +89,10 @@ namespace DesignPattens.Controllers
         [HttpPost]
         public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
         {
-          if (_context.Employees == null)
-          {
-              return Problem("Entity set 'ApplicationDBContext.Employees'  is null.");
-          }
+            if (_context.Employees == null)
+            {
+                return Problem("Entity set 'ApplicationDBContext.Employees'  is null.");
+            }
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
 
