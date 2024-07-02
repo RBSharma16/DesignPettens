@@ -32,6 +32,14 @@ namespace DesignPattens.Controllers
             {
                 return BadRequest();
             }
+            if (_context.Employees == null)
+            {
+                return NotFound();
+            }
+            if (_context.Employees.FirstOrDefault().EmailId == "")
+            {
+                return BadRequest();
+            }
             return await _context.Employees.ToListAsync();
         }
 
